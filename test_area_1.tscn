@@ -12,8 +12,8 @@ texture = ExtResource("1_p0jpb")
 
 [node name="Character" parent="." unique_id=1833282010 instance=ExtResource("1_cvvd7")]
 
-[node name="Area2D" type="StaticBody2D" parent="." unique_id=1149148147]
+[node name="static2D" type="StaticBody2D" parent="." unique_id=1149148147]
 position = Vector2(12, 264)
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D" unique_id=1078045440]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="static2D" unique_id=1078045440]
 polygon = PackedVector2Array(1147, -36, 1149, 513, -790, 506, -793, -421, -728, -412, -732, 422, 1075, 420, 1084, -161)
