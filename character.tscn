@@ -26,3 +26,5 @@ sprite_frames = SubResource("SpriteFrames_7wcfl")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=606315090]
 shape = SubResource("CapsuleShape2D_h1fgc")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=281237966]

@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://7qo377at6xik"]
+
+[ext_resource type="PackedScene" uid="uid://dsk8jlr6l5m3u" path="res://character.tscn" id="1_cvvd7"]
+[ext_resource type="Texture2D" uid="uid://b8qn1g8cmoolv" path="res://ynoTESTBG.png" id="1_p0jpb"]
+
+[node name="testArea1" type="Node2D" unique_id=51664520]
+
+[node name="YnoTestbg" type="Sprite2D" parent="." unique_id=1446908490]
+position = Vector2(193.99994, 167.99988)
+scale = Vector2(5.7875, 5.0416665)
+texture = ExtResource("1_p0jpb")
+
+[node name="Character" parent="." unique_id=1833282010 instance=ExtResource("1_cvvd7")]
+
+[node name="Area2D" type="StaticBody2D" parent="." unique_id=1149148147]
+position = Vector2(12, 264)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D" unique_id=1078045440]
+polygon = PackedVector2Array(1147, -36, 1149, 513, -790, 506, -793, -421, -728, -412, -732, 422, 1075, 420, 1084, -161)
