@@ -1,0 +1,8 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1791566032
+character.gd::GDScript::1628179725642093860::1791409099::0::1::::<>CharacterBody2D<><>0<>0<><>::
+character.tscn::PackedScene::8445325352453839676::1791409570::0::1::::<><><>0<>0<><>::uid://cfl1fgwc5rv31::::res://icon.svg<>uid://xgx483blxb53::::res://character.gd
+icon.svg::CompressedTexture2D::5148081660909926478::1791216292::1791408523::1::::<><><>0<>0<>e0b974729ee9e2e029e634e5034cdb04<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main_scene.tscn::PackedScene::5712775509430245677::1791409569::0::1::::<><><>0<>0<><>::
+test_area_1.tscn::PackedScene::2279974810817641886::1791410459::0::1::::<><><>0<>0<><>::uid://dsk8jlr6l5m3u::::res://character.tscn<>uid://b8qn1g8cmoolv::::res://ynoTESTBG.png
+ynoTESTBG.png::CompressedTexture2D::4736518685586737779::1791408861::1791408874::1::::<><><>0<>0<>2bb41f322fefe524f874c6b2769adcce<>res://.godot/imported/ynoTESTBG.png-09afabb9e0e9575626d018899f6a0293.ctex::
