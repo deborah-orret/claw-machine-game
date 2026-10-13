@@ -7,3 +7,6 @@ res://scripts/character_body_2d.gd
 res://scripts/area_2d.gd
 res://scenes/coin.tscn
 res://scripts/coin.gd
+res://scenes/test_area_1.tscn
+res://scripts/character.gd
+res://scenes/character.tscn

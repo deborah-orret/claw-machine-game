@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://cwdon53461s1u"]
+
+[ext_resource type="PackedScene" uid="uid://dvf40mkgjut8v" path="res://scenes/coin.tscn" id="2_epypp"]
+
+[node name="Node2D" type="Node2D" unique_id=1409465806]
+
+[node name="Area2D" parent="." unique_id=822389522 instance=ExtResource("2_epypp")]
+position = Vector2(215, -198)
+
+[node name="Area2D2" parent="." unique_id=506890768 instance=ExtResource("2_epypp")]
+position = Vector2(113, -88)
+
+[node name="Area2D3" parent="." unique_id=1231479892 instance=ExtResource("2_epypp")]
+position = Vector2(143, -389)
+
+[node name="Area2D4" parent="." unique_id=2050385258 instance=ExtResource("2_epypp")]
+position = Vector2(-8, -320)
+
+[node name="Area2D5" parent="." unique_id=1046533768 instance=ExtResource("2_epypp")]
+position = Vector2(-72, -158)
+
+[node name="Area2D6" parent="." unique_id=848692306 instance=ExtResource("2_epypp")]
+position = Vector2(-205, -329)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1209288835]
+position = Vector2(221, -210)
