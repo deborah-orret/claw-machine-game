@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://cxsuaowgcshk8"]
+
+[ext_resource type="PackedScene" uid="uid://iaic0n3n5p8t" path="res://hand.tscn" id="1_aa6cm"]
+[ext_resource type="PackedScene" uid="uid://c2k17nqqawul6" path="res://boulders.tscn" id="2_s34qq"]
+
+[sub_resource type="GDScript" id="GDScript_s34qq"]
+script/source = "extends Node
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
+[node name="MainScene" type="Node2D" unique_id=1522766140]
+script = SubResource("GDScript_s34qq")
+
+[node name="Hand" parent="." unique_id=1939805215 instance=ExtResource("1_aa6cm")]
+position = Vector2(216, 789)
+
+[node name="Boulders" parent="." unique_id=140257970 instance=ExtResource("2_s34qq")]
+position = Vector2(238, -59)
+
+[node name="Boulders2" parent="." unique_id=1488194768 instance=ExtResource("2_s34qq")]
+position = Vector2(74, -167)
+
+[node name="Boulders3" parent="." unique_id=1403509311 instance=ExtResource("2_s34qq")]
+position = Vector2(345, -296)
+
+[node name="Boulders4" parent="." unique_id=100367138 instance=ExtResource("2_s34qq")]
+position = Vector2(140, -471)

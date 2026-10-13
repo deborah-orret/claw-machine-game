@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://c2k17nqqawul6"]
+
+[ext_resource type="Texture2D" uid="uid://rr6x7u4woamh" path="res://rock-emoji.jpg" id="1_k3ibm"]
+[ext_resource type="Script" uid="uid://cn4ydm3wodsas" path="res://boulders.gd" id="1_slr66"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gl7by"]
+size = Vector2(126, 133)
+
+[node name="Boulders" type="RigidBody2D" unique_id=140257970]
+script = ExtResource("1_slr66")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1700143632]
+position = Vector2(1, 0.5)
+shape = SubResource("RectangleShape2D_gl7by")
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=1090248853]
+position = Vector2(0.9999981, -4.7683716e-07)
+scale = Vector2(0.09583333, 0.09833334)
+texture = ExtResource("1_k3ibm")
