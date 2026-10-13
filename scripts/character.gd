@@ -1,12 +1,15 @@
 extends CharacterBody2D
 
-var score = 0
+
 const SPEED = 500.0
 const JUMP_VELOCITY = -1000.0
 
 func add_point():
-	score += 1
-	print(score)
+	Global.score += 1
+	print(Global.score)
+	
+func isCharacter():
+	return true
 
 func _physics_process(delta):
 	# Add the gravity.

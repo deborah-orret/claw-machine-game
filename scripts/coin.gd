@@ -1,13 +1,12 @@
 extends Area2D
-
-@onready var character = "res://scenes/character.tscn"
-
 #func body_entered() -> void:
-	
+
+#func _on_area_entered(area: CharacterBody2D):
 	
 
 
-func _on_area_entered(area: Area2D) -> void:
+func _on_body_entered(body: Node2D) -> void:
 	print("interacted")
-	character.add_point()
+	if (body.isCharacter()):
+		body.add_point()
 	queue_free()
