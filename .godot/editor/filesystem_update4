@@ -5,3 +5,4 @@ res://scripts/coin.gd
 res://scenes/test_area_1.tscn
 res://scripts/global.gd
 res://scenes/character.tscn
+res://scenes/coin.tscn
