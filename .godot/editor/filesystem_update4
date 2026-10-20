@@ -1,4 +1,7 @@
-res://character.tscn
-res://main_scene.tscn
-res://test_area_1.tscn
-res://character.gd
+res://scenes/speedBoost.tscn
+res://scripts/character.gd
+res://scenes/speed_boost.gd
+res://scripts/coin.gd
+res://scenes/test_area_1.tscn
+res://scripts/global.gd
+res://scenes/character.tscn
