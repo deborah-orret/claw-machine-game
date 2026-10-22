@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://7qo377at6xik"]
+
+[ext_resource type="PackedScene" uid="uid://dsk8jlr6l5m3u" path="res://scenes/character.tscn" id="1_cvvd7"]
+[ext_resource type="Texture2D" uid="uid://b8qn1g8cmoolv" path="res://assets/ynoTESTBG.png" id="1_p0jpb"]
+[ext_resource type="PackedScene" uid="uid://dvf40mkgjut8v" path="res://scenes/coin.tscn" id="3_tw15b"]
+[ext_resource type="PackedScene" uid="uid://ceea4fdu5g0ro" path="res://scenes/speedBoost.tscn" id="3_y145x"]
+
+[node name="testArea1" type="Node2D" unique_id=51664520]
+
+[node name="YnoTestbg" type="Sprite2D" parent="." unique_id=1446908490]
+position = Vector2(193.99994, 167.99988)
+scale = Vector2(5.7875, 5.0416665)
+texture = ExtResource("1_p0jpb")
+
+[node name="Character" parent="." unique_id=1833282010 instance=ExtResource("1_cvvd7")]
+z_index = 1
+position = Vector2(0, 1.5258789e-05)
+scale = Vector2(1, 0.99999994)
+
+[node name="static2D" type="StaticBody2D" parent="." unique_id=1149148147]
+position = Vector2(12, 264)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="static2D" unique_id=1078045440]
+polygon = PackedVector2Array(1147, -36, 1149, 513, -790, 506, -793, -421, -728, -412, -732, 422, 1075, 420, 1084, -161)
+
+[node name="Area2D6" parent="." unique_id=822389522 instance=ExtResource("3_y145x")]
+position = Vector2(22, 542)
+
+[node name="Area2D" parent="." unique_id=1602436109 instance=ExtResource("3_tw15b")]
+position = Vector2(-254, 155)
+
+[node name="Area2D2" parent="." unique_id=408420520 instance=ExtResource("3_tw15b")]
+position = Vector2(613, 77)
+
+[node name="Area2D3" parent="." unique_id=711245293 instance=ExtResource("3_tw15b")]
+position = Vector2(287, 470)
+
+[node name="Area2D4" parent="." unique_id=294268555 instance=ExtResource("3_tw15b")]
+position = Vector2(-566, 494)
+
+[node name="Area2D5" parent="." unique_id=817493776 instance=ExtResource("3_tw15b")]
+position = Vector2(831, 470)
