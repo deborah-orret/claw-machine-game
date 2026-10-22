@@ -1,7 +1,7 @@
-[gd_scene format=3 uid="uid://cxsuaowgcshk8"]
+[gd_scene format=3 uid="uid://brkmylkjim6k2"]
 
-[ext_resource type="PackedScene" uid="uid://iaic0n3n5p8t" path="res://hand.tscn" id="1_aa6cm"]
-[ext_resource type="PackedScene" uid="uid://c2k17nqqawul6" path="res://boulders.tscn" id="2_s34qq"]
+[ext_resource type="PackedScene" uid="uid://d0nxwrtpn0w1j" path="res://hand.tscn" id="1_aa6cm"]
+[ext_resource type="PackedScene" uid="uid://bsmg042fogmls" path="res://boulders.tscn" id="2_s34qq"]
 
 [sub_resource type="GDScript" id="GDScript_s34qq"]
 script/source = "extends Node

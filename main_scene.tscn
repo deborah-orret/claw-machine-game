@@ -1,3 +1,34 @@
 [gd_scene format=3 uid="uid://cnnktwfpl1ik0"]
 
+[ext_resource type="PackedScene" uid="uid://d0nxwrtpn0w1j" path="res://hand.tscn" id="1_2c62f"]
+[ext_resource type="PackedScene" uid="uid://bsmg042fogmls" path="res://boulders.tscn" id="2_gyfs4"]
+[ext_resource type="PackedScene" uid="uid://dfx73kr0kgty3" path="res://terrain.tscn" id="3_gyfs4"]
+[ext_resource type="PackedScene" uid="uid://t3euikpptsx3" path="res://spikes.tscn" id="4_d5x1h"]
+
 [node name="MainScene" type="Node2D" unique_id=27854533]
+
+[node name="Hand" parent="." unique_id=1939805215 instance=ExtResource("1_2c62f")]
+position = Vector2(195, 785)
+gravity_scale = -2.035
+
+[node name="Boulders" parent="." unique_id=140257970 instance=ExtResource("2_gyfs4")]
+position = Vector2(67, -82)
+inertia = 4.35
+
+[node name="Boulders2" parent="." unique_id=2105747394 instance=ExtResource("2_gyfs4")]
+position = Vector2(242, 42)
+
+[node name="Boulders3" parent="." unique_id=1889460025 instance=ExtResource("2_gyfs4")]
+position = Vector2(375, -276)
+
+[node name="Terrain" parent="." unique_id=1563545330 instance=ExtResource("3_gyfs4")]
+position = Vector2(-8, 0)
+collision_enabled = false
+
+[node name="Spikes" parent="." unique_id=360196122 instance=ExtResource("4_d5x1h")]
+position = Vector2(106, 501.00003)
+scale = Vector2(0.51369864, 0.38636363)
+
+[node name="Spikes2" parent="." unique_id=1124766825 instance=ExtResource("4_d5x1h")]
+position = Vector2(183, 209)
+scale = Vector2(0.4178082, 0.4318182)

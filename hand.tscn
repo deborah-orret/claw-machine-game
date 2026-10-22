@@ -1,24 +1,22 @@
-[gd_scene format=3 uid="uid://iaic0n3n5p8t"]
+[gd_scene format=3 uid="uid://d0nxwrtpn0w1j"]
 
 [ext_resource type="Script" uid="uid://de5f5n5b23xfb" path="res://hand.gd" id="1_bfasp"]
 [ext_resource type="Texture2D" uid="uid://cc68x5ttu5gg0" path="res://icon.svg" id="1_u4p2i"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gl7by"]
-size = Vector2(439, 116)
+size = Vector2(496, 116)
 
-[node name="Hand" type="RigidBody2D" unique_id=1939805215]
-collision_layer = 2
-collision_mask = 2
-gravity_scale = -1.123
+[node name="Hand" type="RigidBody2D" unique_id=1320433112]
+mass = 1000.0
 script = ExtResource("1_bfasp")
 
 [node name="Icon" type="Sprite2D" parent="." unique_id=1400707999]
-position = Vector2(25.5, -3)
-scale = Vector2(3.5703125, 1)
+position = Vector2(52.5, -3)
+scale = Vector2(3.9921875, 1)
 texture = ExtResource("1_u4p2i")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=49514525]
-position = Vector2(23.5, -4)
+position = Vector2(52, -4)
 shape = SubResource("RectangleShape2D_gl7by")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

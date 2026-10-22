@@ -1,0 +1,15 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1792518426
+autotile_tileset.png::CompressedTexture2D::8803268761000711154::1792516377::1792516377::1::::<><><>0<>0<>dd59a48ad13ac4f71d1fa880979a2f90<>res://.godot/imported/autotile_tileset.png-7c1dad8bd133f290e6f60af084833b62.ctex::
+boulders.gd::GDScript::5746626529309618578::1792518216::0::1::::<>RigidBody2D<><>0<>0<><>::
+boulders.tscn::PackedScene::3675002914163631784::1792518122::0::1::::<><><>0<>0<><>::uid://rr6x7u4woamh::::res://rock-emoji.jpg<>uid://cn4ydm3wodsas::::res://boulders.gd
+hand.gd::GDScript::7502306646264533303::1792518079::0::1::::<>RigidBody2D<><>0<>0<><>::
+hand.tscn::PackedScene::8942256754080575245::1792518216::0::1::::<><><>0<>0<><>::uid://de5f5n5b23xfb::::res://hand.gd<>uid://cc68x5ttu5gg0::::res://icon.svg
+hazards.tscn::PackedScene::3601046859672177515::1791908926::0::1::::<><><>0<>0<><>::uid://d0nxwrtpn0w1j::::res://hand.tscn<>uid://bsmg042fogmls::::res://boulders.tscn
+icon.svg::CompressedTexture2D::4979261105002200141::1790877667::1792099202::1::::<><><>0<>0<>481ca3e996a0f10d612802f5b9128b91<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main_scene.tscn::PackedScene::5712775509430245677::1792517847::0::1::::<><><>0<>0<><>::uid://d0nxwrtpn0w1j::::res://hand.tscn<>uid://bsmg042fogmls::::res://boulders.tscn<>uid://dfx73kr0kgty3::::res://terrain.tscn
+rock-emoji.jpg::CompressedTexture2D::1230229776692009999::1791907545::1792099202::1::::<><><>0<>0<>4eb1ad67c62dfc08d2a869d36267e13c<>res://.godot/imported/rock-emoji.jpg-b404c5beb12b3f280e894c3c74926d1a.ctex::
+spikes.png::CompressedTexture2D::1187400392657465136::1792518417::1792518426::1::::<><><>0<>0<>a463e3dd48bf6fceb3919fa521a629fe<>res://.godot/imported/spikes.png-4a2427e7b6483a335646e762227cfd31.ctex::
+spikes.tscn::PackedScene::1391669626422642906::1792518288::0::1::::<><><>0<>0<><>::
+terrain.tscn::PackedScene::7559680456255387976::1792517386::0::1::::<><><>0<>0<><>::uid://dxomsyf1pn755::::res://autotile_tileset.png
+toxic_substance.gd::GDScript::1967737380848009398::1791567371::0::1::::<>Area2D<><>0<>0<><>::
