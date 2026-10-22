@@ -1,7 +1,0 @@
-Timer
-CollisionShape2D
-AnimatedSprite2D
-StaticBody2D
-Camera2D
-CollisionPolygon2D
-Area2D
