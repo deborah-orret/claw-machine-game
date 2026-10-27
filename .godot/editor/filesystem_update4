@@ -6,3 +6,5 @@ res://terrain.tscn
 res://hand.gd
 res://spikes.tscn
 res://spikes.gd
+res://collision_shape_2d.gd
+res://toxic_substance.gd

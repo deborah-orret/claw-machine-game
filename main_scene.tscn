@@ -9,26 +9,25 @@
 
 [node name="Hand" parent="." unique_id=1939805215 instance=ExtResource("1_2c62f")]
 position = Vector2(195, 785)
-gravity_scale = -2.035
-
-[node name="Boulders" parent="." unique_id=140257970 instance=ExtResource("2_gyfs4")]
-position = Vector2(67, -82)
-inertia = 4.35
-
-[node name="Boulders2" parent="." unique_id=2105747394 instance=ExtResource("2_gyfs4")]
-position = Vector2(242, 42)
-
-[node name="Boulders3" parent="." unique_id=1889460025 instance=ExtResource("2_gyfs4")]
-position = Vector2(375, -276)
 
 [node name="Terrain" parent="." unique_id=1563545330 instance=ExtResource("3_gyfs4")]
 position = Vector2(-8, 0)
 collision_enabled = false
 
 [node name="Spikes" parent="." unique_id=360196122 instance=ExtResource("4_d5x1h")]
-position = Vector2(106, 501.00003)
-scale = Vector2(0.51369864, 0.38636363)
+position = Vector2(339, 792)
 
-[node name="Spikes2" parent="." unique_id=1124766825 instance=ExtResource("4_d5x1h")]
-position = Vector2(183, 209)
-scale = Vector2(0.4178082, 0.4318182)
+[node name="Spikes2" parent="." unique_id=1088214800 instance=ExtResource("4_d5x1h")]
+position = Vector2(882, 334)
+
+[node name="Spikes3" parent="." unique_id=999062949 instance=ExtResource("4_d5x1h")]
+position = Vector2(1221, 782)
+
+[node name="Boulders" parent="." unique_id=140257970 instance=ExtResource("2_gyfs4")]
+position = Vector2(92, -109)
+
+[node name="Boulders2" parent="." unique_id=429072907 instance=ExtResource("2_gyfs4")]
+position = Vector2(651, -64)
+
+[node name="Boulders3" parent="." unique_id=1094825084 instance=ExtResource("2_gyfs4")]
+position = Vector2(1564, -117)

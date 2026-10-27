@@ -4,19 +4,20 @@
 [ext_resource type="Texture2D" uid="uid://cc68x5ttu5gg0" path="res://icon.svg" id="1_u4p2i"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gl7by"]
-size = Vector2(496, 116)
+size = Vector2(2068, 703)
 
-[node name="Hand" type="RigidBody2D" unique_id=1320433112]
-mass = 1000.0
+[node name="Hand" type="Sprite2D" unique_id=2040966927]
 script = ExtResource("1_bfasp")
 
-[node name="Icon" type="Sprite2D" parent="." unique_id=1400707999]
-position = Vector2(52.5, -3)
-scale = Vector2(3.9921875, 1)
+[node name="Area2D" type="Area2D" parent="." unique_id=1862116350]
+
+[node name="Icon" type="Sprite2D" parent="Area2D" unique_id=1400707999]
+position = Vector2(839.49994, 288)
+scale = Vector2(16.289063, 5.546875)
 texture = ExtResource("1_u4p2i")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=49514525]
-position = Vector2(52, -4)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=49514525]
+position = Vector2(840, 292)
 shape = SubResource("RectangleShape2D_gl7by")
 
-[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

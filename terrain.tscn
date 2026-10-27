@@ -1071,6 +1071,7 @@ texture = ExtResource("1_206su")
 40:26/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_hmi1s"]
+tile_size = Vector2i(60, 25)
 physics_layer_0/collision_layer = 1
 terrain_set_0/mode = 0
 sources/3 = SubResource("TileSetAtlasSource_0u6kl")
