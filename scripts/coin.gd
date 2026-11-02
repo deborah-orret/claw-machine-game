@@ -7,5 +7,5 @@ func add_point():
 
 func _on_body_entered(body: Node2D) -> void:
 	if (body.isCharacter()):
-		body.jumpBoost()
+		body.add_point()
 		queue_free()
