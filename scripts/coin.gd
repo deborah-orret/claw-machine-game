@@ -1,13 +1,11 @@
 extends Area2D
+var score = 0
 
-@onready var character = "res://scenes/character.tscn"
+func add_point():
+	score += 1
+	print(score)
 
-#func body_entered() -> void:
-	
-	
-
-
-func _on_area_entered(area: Area2D) -> void:
-	print("interacted")
-	character.add_point()
-	queue_free()
+func _on_body_entered(body: Node2D) -> void:
+	if (body.isCharacter()):
+		body.jumpBoost()
+		queue_free()
