@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dsk8jlr6l5m3u"]
 
-[ext_resource type="Script" uid="uid://xgx483blxb53" path="res://scripts/character.gd" id="1_pjt0s"]
+[ext_resource type="Script" uid="uid://cyravik00qfa3" path="res://scripts/character.gd" id="1_pjt0s"]
 [ext_resource type="Texture2D" uid="uid://cdyefw6m4rtgu" path="res://assets/beep.png" id="2_rkhd4"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_h1fgc"]
@@ -79,3 +79,5 @@ scale = Vector2(4.217, 4)
 sprite_frames = SubResource("SpriteFrames_612tc")
 animation = &"jumps"
 autoplay = "idle"
+
+[node name="boostTimer" type="Timer" parent="." unique_id=825466133]
