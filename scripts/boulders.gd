@@ -3,7 +3,7 @@ extends RigidBody2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	gravity_scale= randi_range(1,3);
+	gravity_scale= randi_range(1,2);
 	add_to_group("boulders")
 
 

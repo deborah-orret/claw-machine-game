@@ -1,15 +1,10 @@
-extends RigidBody2D
+extends Sprite2D
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	add_to_group("hand")
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	self.position.y += 1
-	self.linear_velocity.y *= delta 
+	position.y -= 0.5
 
-
-func _on_body_entered(body: Node) -> void:
-	if body.is_in_group("boulders"):
-		body.queue_free()
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	body.queue_free()

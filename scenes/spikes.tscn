@@ -4,18 +4,18 @@
 [ext_resource type="Script" uid="uid://bvqbrxqq5e78l" path="res://spikes.gd" id="2_nrdsm"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gl7by"]
-size = Vector2(152.0625, 140.99998)
+size = Vector2(146.7644, 132.00002)
 
 [node name="Spikes" type="Sprite2D" unique_id=360196122]
-position = Vector2(4.7683716e-07, -1.0000001)
-scale = Vector2(0.15753424, 0.15151517)
+position = Vector2(0, 1.9073486e-06)
+scale = Vector2(0.6541096, 0.59090906)
 texture = ExtResource("1_s0g1x")
 script = ExtResource("2_nrdsm")
 
 [node name="Area2D" type="Area2D" parent="." unique_id=1946212046]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1215175739]
-position = Vector2(6.347823, -6.5999985)
+position = Vector2(-1.5287933, -1.6923141)
 scale = Vector2(1, 0.99999994)
 shape = SubResource("RectangleShape2D_gl7by")
 

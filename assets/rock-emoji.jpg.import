@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rr6x7u4woamh"
-path="res://.godot/imported/rock-emoji.jpg-09bcf3a438c4efb157afd6e41346f275.ctex"
+path="res://.godot/imported/rock-emoji.jpg-b404c5beb12b3f280e894c3c74926d1a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/rock-emoji.jpg"
-dest_files=["res://.godot/imported/rock-emoji.jpg-09bcf3a438c4efb157afd6e41346f275.ctex"]
+source_file="res://rock-emoji.jpg"
+dest_files=["res://.godot/imported/rock-emoji.jpg-b404c5beb12b3f280e894c3c74926d1a.ctex"]
 
 [params]
 
