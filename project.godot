@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="blah"
-run/main_scene="uid://cnnktwfpl1ik0"
+config/name="ClawMachineGame"
+run/main_scene="uid://7qo377at6xik"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 

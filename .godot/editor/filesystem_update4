@@ -8,3 +8,10 @@ res://spikes.tscn
 res://spikes.gd
 res://collision_shape_2d.gd
 res://toxic_substance.gd
+res://scenes/character.tscn
+res://scenes/tiletest_area_1.tscn
+res://scripts/character.gd
+res://scripts/coin.gd
+res://scenes/test_area_1.tscn
+res://scripts/speedboost.gd
+res://scenes/speedBoost.tscn

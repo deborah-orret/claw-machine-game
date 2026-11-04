@@ -1,0 +1,83 @@
+[gd_scene format=3 uid="uid://dsk8jlr6l5m3u"]
+
+[ext_resource type="Script" uid="uid://cyravik00qfa3" path="res://scripts/character.gd" id="1_pjt0s"]
+[ext_resource type="Texture2D" uid="uid://cdyefw6m4rtgu" path="res://assets/beep.png" id="2_rkhd4"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_h1fgc"]
+radius = 65.0
+height = 130.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lrhn5"]
+atlas = ExtResource("2_rkhd4")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_my7n2"]
+atlas = ExtResource("2_rkhd4")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dp8ca"]
+atlas = ExtResource("2_rkhd4")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2cgup"]
+atlas = ExtResource("2_rkhd4")
+region = Rect2(64, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0dpix"]
+atlas = ExtResource("2_rkhd4")
+region = Rect2(128, 32, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_612tc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lrhn5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_my7n2")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dp8ca")
+}],
+"loop": 1,
+"name": &"jumps",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2cgup")
+}],
+"loop": 1,
+"name": &"lefts",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0dpix")
+}],
+"loop": 1,
+"name": &"rights",
+"speed": 5.0
+}]
+
+[node name="Character" type="CharacterBody2D" unique_id=1833282010]
+script = ExtResource("1_pjt0s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=606315090]
+shape = SubResource("CapsuleShape2D_h1fgc")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=281237966]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=751349168]
+position = Vector2(-0.9999962, -1)
+scale = Vector2(4.217, 4)
+sprite_frames = SubResource("SpriteFrames_612tc")
+animation = &"jumps"
+autoplay = "idle"
+
+[node name="boostTimer" type="Timer" parent="." unique_id=825466133]
