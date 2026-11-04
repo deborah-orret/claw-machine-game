@@ -1,3 +1,13 @@
+res://main_scene.tscn
+res://boulders.gd
+res://hand.tscn
+res://boulders.tscn
+res://terrain.tscn
+res://hand.gd
+res://spikes.tscn
+res://spikes.gd
+res://collision_shape_2d.gd
+res://toxic_substance.gd
 res://scenes/character.tscn
 res://scenes/tiletest_area_1.tscn
 res://scripts/character.gd
