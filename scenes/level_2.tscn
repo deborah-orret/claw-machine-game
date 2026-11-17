@@ -1,0 +1,62 @@
+[gd_scene format=3 uid="uid://dn8pma0skdtun"]
+
+[ext_resource type="Texture2D" uid="uid://b8qn1g8cmoolv" path="res://assets/ynoTESTBG.png" id="1_y0kc7"]
+[ext_resource type="PackedScene" uid="uid://ceea4fdu5g0ro" path="res://scenes/speedBoost.tscn" id="2_ne2mo"]
+[ext_resource type="PackedScene" uid="uid://pc6mqs3danca" path="res://scenes/coin.tscn" id="3_6cvei"]
+[ext_resource type="PackedScene" uid="uid://dsk8jlr6l5m3u" path="res://scenes/character.tscn" id="4_que50"]
+[ext_resource type="PackedScene" uid="uid://d0nxwrtpn0w1j" path="res://scenes/hand.tscn" id="5_hey2k"]
+[ext_resource type="PackedScene" uid="uid://dfx73kr0kgty3" path="res://scenes/terrain_two.tscn" id="6_172wr"]
+[ext_resource type="PackedScene" uid="uid://fcnm7vtw5lgl" path="res://scenes/door.tscn" id="7_g2hoc"]
+[ext_resource type="PackedScene" uid="uid://t3euikpptsx3" path="res://scenes/spikes.tscn" id="8_ne2mo"]
+
+[node name="Node2D" type="Node2D" unique_id=1200100553]
+
+[node name="YnoTestbg" type="Sprite2D" parent="." unique_id=1789767245]
+position = Vector2(-57.49997, -573.49994)
+scale = Vector2(7.440626, 10.670834)
+texture = ExtResource("1_y0kc7")
+
+[node name="Area2D6" parent="." unique_id=822389522 instance=ExtResource("2_ne2mo")]
+position = Vector2(-5, 450)
+
+[node name="static2D" type="StaticBody2D" parent="." unique_id=1733775256]
+position = Vector2(12, 264)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="static2D" unique_id=1727892274]
+polygon = PackedVector2Array(1147, -36, 1149, 513, -790, 506, -793, -421, -728, -412, -732, 422, 1075, 420, 1084, -161)
+
+[node name="Area2D" parent="." unique_id=1091406357 instance=ExtResource("3_6cvei")]
+position = Vector2(-516, -1633)
+
+[node name="Area2D2" parent="." unique_id=702057063 instance=ExtResource("3_6cvei")]
+position = Vector2(-297, 171)
+
+[node name="Area2D3" parent="." unique_id=762402494 instance=ExtResource("3_6cvei")]
+position = Vector2(-703, -730)
+
+[node name="Area2D4" parent="." unique_id=140052998 instance=ExtResource("3_6cvei")]
+position = Vector2(522, -1051)
+
+[node name="Area2D5" parent="." unique_id=1787094553 instance=ExtResource("3_6cvei")]
+position = Vector2(413, -362)
+
+[node name="Character" parent="." unique_id=1833282010 instance=ExtResource("4_que50")]
+position = Vector2(155, 455)
+
+[node name="Hand" parent="." unique_id=2040966927 instance=ExtResource("5_hey2k")]
+position = Vector2(-689, 768)
+
+[node name="Terrain" parent="." unique_id=1563545330 instance=ExtResource("6_172wr")]
+position = Vector2(-1100, -801)
+
+[node name="Sprite2D" parent="." unique_id=965130950 instance=ExtResource("7_g2hoc")]
+position = Vector2(-980, -1585)
+
+[node name="Spikes" parent="." unique_id=360196122 instance=ExtResource("8_ne2mo")]
+position = Vector2(64, -48)
+
+[node name="Spikes2" parent="." unique_id=864336192 instance=ExtResource("8_ne2mo")]
+position = Vector2(137, -1184)
+
+[node name="Spikes3" parent="." unique_id=985647006 instance=ExtResource("8_ne2mo")]
+position = Vector2(-827, -324)

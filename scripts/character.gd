@@ -3,6 +3,15 @@ extends CharacterBody2D
 const JUMP_VELOCITY = -1000.0
 
 
+func _ready() -> void:
+	add_to_group("character")
+	var reload_count = get_tree().get_meta("reload_count", -1) + 1
+	get_tree().set_meta("reload_count", reload_count)
+	
+	if reload_count >= 3:
+		kill_permanently()
+	print("reload count: " + str(reload_count))
+	
 func add_point():
 	Global.score += 1
 	print(Global.score)
@@ -56,3 +65,8 @@ func _physics_process(delta):
 		velocity.x = move_toward(velocity.x, 0, Global.SPEED)
 
 	move_and_slide()
+
+
+func kill_permanently():
+	print("You died!")
+	get_tree().change_scene_to_file("res://game_over.tscn")
